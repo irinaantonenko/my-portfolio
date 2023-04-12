@@ -1,17 +1,17 @@
 <template>
-    <a target="_blank" :href="project.link" class="projects-item">   
-        <div class="projects-item__image-wrap">        
-            <img class="projects-item__image" :src="require('../assets/images/' + project.image)" alt="projects-photo">
+    <a target="_blank" :href="chanel.link" class="chanel-items">   
+        <div class="chanel-items__image-wrap">        
+            <img class="chanel-items__image" :src="require('../assets/images/' + chanel.image)" alt="chanel-photo">
         </div>
-        <p class="projects-item__subtitle">{{ project.title }}</p>                
+        <p class="chanel-items__subtitle">{{ chanel.title }}</p>                
     </a>
 </template>
 
 <script>   
     export default {
-        name: 'ProjectsPageItem',
+        name: 'ChanelItems',
         props: {
-            project: {
+            chanel: {
                 type: Object,
                 default() {
                     return {}
@@ -22,7 +22,7 @@
 </script>
 
 <style lang="scss">
-    .projects-item {
+    .chanel-items {
         display: flex;
         flex-direction: column;
         justify-content: stretch;
@@ -37,9 +37,6 @@
         &:hover {
             box-shadow: 0 0 7px 10px rgba(255,255,0, 0.5);
         }
-        &:hover &__subtitle {
-            color: rgb(0, 140, 255);
-        }
         &__image-wrap {
             position: relative;
             width: 100%;
@@ -48,7 +45,7 @@
         &__image {
             width: 100%;
             height: 100%;
-            opacity: 0.9;
+            opacity: 0.8;
             position: absolute;
             top: 0;
             left: 0;
@@ -63,7 +60,7 @@
             font-size: 18px;
             margin: 0 auto;
             color: #000;
-            min-height: 70px;
+            min-height: 100px;
             @media (max-width: 425px) {
                 font-size: 16px;
             }

@@ -82,8 +82,8 @@
             border-bottom: 1px solid #000;
             color: #000;
             &:hover {
-                color: red;
-                border-bottom: 1px solid red;
+                color: rgb(0, 140, 255);
+                border-bottom: 1px solid rgb(0, 140, 255);
             }
         }
         &__image-wrap {

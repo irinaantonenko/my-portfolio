@@ -52,47 +52,49 @@
 </script>
 
 <style lang="scss">
-        .projects-page {
-            display: flex;
-            flex-direction: column;      
-            background-color: #F6F6F6;
-            padding-bottom: 50px;
-            gap: 50px;            
-            @media (max-width: 425px) {            
-                background-color: #fff;
-                gap: 20px;  
+    .projects-page {
+        display: flex;
+        flex-direction: column;      
+        background-color: #F6F6F6;
+        padding-bottom: 50px;
+        gap: 50px;            
+        @media (max-width: 425px) {            
+            background-color: #fff;
+            gap: 20px; 
+            border-bottom: 1px solid #F6F6F6; 
+        }
+        &__title {
+            font-family: 'Libre Baskerville';
+            font-size: 36px;                
+            padding-top: 50px;
+            text-transform: uppercase;
+            margin: 0 auto;
+            @media (max-width: 1440px) {
+                font-size: 30px;
             }
-            &__title {
-                font-family: 'Libre Baskerville';
-                font-size: 36px;                
-                padding-top: 50px;
-                text-transform: uppercase;
-                margin: 0 auto;
-                @media (max-width: 1440px) {
-                    font-size: 30px;
-                }
-                @media (max-width: 768px) {
-                    font-size: 20px;
-                }
-                @media (max-width: 425px) {
-                    padding-top: 20px;
-                }
+            @media (max-width: 768px) {
+                font-size: 20px;
             }
-            &__subtitle {
-                font-size: 18px;
-                margin: 0 auto;
-                text-align: center;                
-                @media (max-width: 425px) {
-                    font-size: 16px;
-                }
-            }
-            &__content {
-                max-width: 100%;
-                display: flex;
-                align-items: center;
-                justify-content: space-around;
-                gap: 50px;
-                flex-wrap: wrap; 
+            @media (max-width: 425px) {
+                padding-top: 20px;
             }
         }
+        &__subtitle {
+            font-size: 18px;
+            margin: 0 auto;
+            text-align: center; 
+            padding: 0 10px;               
+            @media (max-width: 425px) {
+                font-size: 16px;
+            }
+        }
+        &__content {
+            max-width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            gap: 50px;
+            flex-wrap: wrap; 
+        }
+    }
 </style>

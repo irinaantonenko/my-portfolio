@@ -4,6 +4,7 @@
     <about-me-page/>
     <experience-page/>
     <projects-page/>
+    <chanel-page/>
     <contact-page/>
   </div>
 </template>
@@ -12,16 +13,18 @@
 import MainPage from './components/MainPage.vue';
 import AboutMePage from './components/AboutMePage.vue';
 import ExperiencePage from './components/ExperiencePage.vue';
-import ContactPage from './components/ContactPage.vue';
 import ProjectsPage from './components/ProjectsPage.vue';
+import ChanelPage from './components/ChanelPage.vue';
+import ContactPage from './components/ContactPage.vue';
 export default {
   name: 'App',
   components: {
     MainPage,
     AboutMePage,
     ExperiencePage,
-    ContactPage,
-    ProjectsPage
+    ProjectsPage,
+    ChanelPage,
+    ContactPage
   }
 }
 </script>
