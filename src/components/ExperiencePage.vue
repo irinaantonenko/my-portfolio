@@ -1,7 +1,9 @@
 <template>
     <div class="experience-page">         
         <div class="experience-page__content">
-            <h2 class="experience-page__subtitle">Background</h2>            
+            <h2 class="experience-page__subtitle">Background</h2>    
+            <h3 class="experience-page__company">Stablex</h3>
+            <p class="experience-page__text">Middle Front-end developer, 2023</p>        
             <h3 class="experience-page__company">Freelance</h3>
             <p class="experience-page__text">Front-end developer, 2022-2023</p>
             <h3 class="experience-page__company">Moma Gifts</h3>

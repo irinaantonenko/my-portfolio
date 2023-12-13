@@ -23,7 +23,7 @@
                     <p class="contact-page__text">YouTube</p>  
                 </a>
             </div>
-            <a href="https://github.com/irinaantonenko/my-portfolio/blob/main/src/assets/resume/Iryna%20Antonenko_Front-end_developer.pdf" download="" target="_blank" class="contact-page__resume">Find my resume here</a>
+            <a href="https://irinaantonenko.github.io/my-portfolio/resume/Iryna_Antonenko_Frontend_Developer.pdf" target="_blank" class="contact-page__resume">Find my resume here</a>
         </div>
     </div>
 </template>

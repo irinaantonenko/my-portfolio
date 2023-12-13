@@ -30,18 +30,28 @@
                     id: 2,
                     link:'https://irinaantonenko.github.io/online-shop/#/'
                 },
+                {   title: 'CoinFuze - Automated Crypto Trading',
+                    image: 'coinfuze.png',
+                    id: 3,
+                    link: 'https://coinfuze.com/'
+                },
                 {
                     title: 'Website of a psychologist',
                     image: 'psycholog.jpg',
-                    id: 3,
+                    id: 4,
                     link:'https://irinaantonenko.github.io/my_project/project_CBD/dist/index.html#/homepage'
                 },
                 {
                     title: 'Website "Tokyo Sushi"',
                     image: 'sushi.jpg',
-                    id: 4,
+                    id: 5,
                     link:'https://irinaantonenko.github.io/tokyosushibar_ua/main.html'
-                }
+                },
+                {   title: 'Forecast app',
+                    image: 'forecast.png',
+                    id: 6,
+                    link: 'https://irinaantonenko.github.io/forecast_app'
+                },
             ]
             }
         },
