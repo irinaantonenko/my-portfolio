@@ -117,7 +117,7 @@
             }
         }
         &__resume {
-            background-color: rgb(0, 140, 255);
+            background-color: #d14836;
             color: #fff;
             cursor: pointer;
             font-size: 18px;
